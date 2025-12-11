@@ -21,7 +21,7 @@ function App() {
     }
 
     try {
-      const res = await axios.post("https://calculator-backend-6666.onrender.com/api/calculate", form);
+      const res = await axios.post("https://calculator-gu5w.onrender.com/", form);
       if (res.data.success) {
         setResult(res.data.result);
       }
